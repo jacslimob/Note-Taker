@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-//const noteList = require('./db/db.json');
 const { readFromFile, readAndAppend, writeToFile } = require('./helpers/fsUtils');
 const uuid = require('./helpers/uuid');
 
